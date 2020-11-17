@@ -37,13 +37,13 @@ function setBgGreet() {
 
     if(hour < 12) {
         //Morning
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/2800x2800/?morning')";
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/2800x2800/?light')";
         greeting.textContent = 'Good Morning';
         document.body.style.color = 'black';
         
     } else if (hour < 18) {
         //Afternoon
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/2800x2800/?afternoon')";
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/2800x2800/?day')";
         greeting.textContent = 'Good Afternoon';
 
     } else {
