@@ -43,7 +43,7 @@ function setBgGreet() {
         
     } else if (hour < 18) {
         //Afternoon
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/2800x2800/?day')";
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/2800x2800/?cloud')";
         greeting.textContent = 'Good Afternoon';
 
     } else {
